@@ -2,7 +2,7 @@
 	function getData(pageName){
 	// Ajax: XMLHttpRequest 物件專門用來和伺服器連線
 	var req=new XMLHttpRequest();
-	req.open("get", "http://10.32.25.185/"+pageName);
+	req.open("get", "http://10.32.26.28/"+pageName);
 	req.onload = function(){ // load 事件，偵測連線的狀態結束
 		//連線完成
 		var content = document.getElementById("content");
